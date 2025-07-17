@@ -37,7 +37,7 @@ i18n
   .init({
     resources,
     fallbackLng: 'en', // Default language
-    debug: process.env.NODE_ENV === 'development', // Only debug in development
+    debug: import.meta.env.NODE_ENV === 'development', // Only debug in development
     interpolation: {
       escapeValue: false, // React already protects against XSS
     },
