@@ -2,8 +2,9 @@
 @plugin 'tailwind-scrollbar';
 
 
-const profile => (profile)({
-    backgroundColor: '#000',
+const profile => (profile)(
+  {
+    backgroundColor: '#001',
     color: '#fff',
     borderRadius: 999,
     padding: '10px 20px',
@@ -12,5 +13,5 @@ const profile => (profile)({
     marginTop: 24,
     '&:hover': {
       backgroundColor: '#111',
-    },
+    }
   });
